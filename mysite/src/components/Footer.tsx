@@ -118,6 +118,7 @@ const Footer: React.FC = () => {
                   </Link>
                 </li>
                 <li>
+
                   <Link to="/contact" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
                     <span className="text-[#7c9a5c]">▸</span> Contact
                   </Link>
@@ -167,7 +168,7 @@ const Footer: React.FC = () => {
 
                 {/* Instagram */}
                 <a
-                  href="https://instagram.com/sanjog.gautam"
+                  href="https://instagram.com/sanjoggt4/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-[#a0a0a0] hover:text-[#d4af37] transition-all group"
