@@ -242,7 +242,7 @@ const Nav: React.FC = () => {
               </a>
 
               <a
-                href="https://instagram.com/sanjog.gautam"
+                href="https://instagram.com/sanjoggt4/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 flex items-center justify-center bg-[#2d3328] border-2 border-[#3d4535] text-[#a0a0a0] hover:text-[#d4af37] hover:border-[#d4af37] transition-all"
