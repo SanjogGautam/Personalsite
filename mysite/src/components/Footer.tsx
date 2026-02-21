@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
@@ -92,34 +93,34 @@ const Footer: React.FC = () => {
               </h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="/" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
+                  <Link to="/" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
                     <span className="text-[#7c9a5c]">▸</span> Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/services" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
+                  <Link to="/services" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
                     <span className="text-[#7c9a5c]">▸</span> Services
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/writeups" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
+                  <Link to="/writeups" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
                     <span className="text-[#7c9a5c]">▸</span> WriteUps
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/mycv" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
+                  <Link to="/mycv" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
                     <span className="text-[#7c9a5c]">▸</span> My CV
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/about" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
+                  <Link to="/about" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
                     <span className="text-[#7c9a5c]">▸</span> About
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/contact" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
+                  <Link to="/contact" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors flex items-center gap-2" style={{ fontFamily: 'Space Mono, monospace' }}>
                     <span className="text-[#7c9a5c]">▸</span> Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -211,13 +212,11 @@ const Footer: React.FC = () => {
             </p>
             
             <div className="flex gap-6 text-sm">
-              <a 
-                href="/privacy" 
-                className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors"
-                style={{ fontFamily: 'Space Mono, monospace' }}
-              >
+
+                <Link to="/privacy" className="text-[#a0a0a0] hover:text-[#d4af37] transition-colors" style={{ fontFamily: 'Space Mono, monospace' }}>
                 Privacy Policy
-              </a>
+                </Link>
+              
               <span className="text-[#3d4535]">|</span>
               <a 
                 href="https://github.com/SanjogGautam" 
